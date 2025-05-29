@@ -1,10 +1,12 @@
-j=5
+row = int(input("Enter number of rows: "))
+col = int(input("Enter number of columns: "))
 
-while(j>0):
-  i=5
-  while(i>0):
-    print("  *",end="") # to continue printing sideways(to avoid printing vertically as python usually do)
-    i-=1
-  print() # to print on a new line
-  
-  j-=1
+original_col = col  # Save the original value
+
+while row > 0:
+    temp_col = original_col  # Reset column counter for each row
+    while temp_col > 0:
+        print("  *", end="")
+        temp_col -= 1
+    print()  # Move to the next line
+    row -= 1
