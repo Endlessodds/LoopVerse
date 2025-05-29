@@ -1,20 +1,23 @@
-using while
 #include <iostream>
 using namespace std;
-int main(){
 
-int i=5,j = 5;
+int main() {
+    int row, col;
+    cout << "Enter the row: ";
+    cin >> row;
+    cout << "Enter the column: ";
+    cin >> col;
 
-while(j>0){
-  while(i>0){
-    cout<<"  *";
-    i--;
-    
+    int i = 0;
+    while (i < row) {
+        int j = 0;  // Reset column counter for each row
+        while (j < col) {
+            cout << " *";
+            j++;
+        }
+        cout << endl;
+        i++;
     }
-  i=5;
-  cout<<endl;
-  j--;
-  
-}
-  return 0;
+
+    return 0;
 }
