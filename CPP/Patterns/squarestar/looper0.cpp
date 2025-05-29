@@ -2,10 +2,14 @@
 using namespace std;
 int main(){
 
+int row,col;
+cout<<"Enter the row";
+cin>>row;
+cout<<"Enter the column";
+cin>>col;
 
-
-for (int j=0;j<=4;j++){
- for(int i=0;i<=4;i++){
+for (int j=1;j<=row;j++){
+ for(int i=1;i<=col;i++){
     cout<<"  *";   
  }
  cout<<endl;
@@ -13,4 +17,4 @@ for (int j=0;j<=4;j++){
   return 0;
 }
 
-//A square 5 by  5 asterix print
+//A square n by n asterix print
