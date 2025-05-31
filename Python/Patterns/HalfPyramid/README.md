@@ -4,7 +4,7 @@
 
 
 ```
-Input: 5  
+Input: if n = 5
 Output:
 *
 **
@@ -12,6 +12,7 @@ Output:
 ****
 *****
 
+5 rows with 5 column half-pyramid
 
 
 ```
