@@ -3,7 +3,7 @@
 [using while loop](https://github.com/Endlessodds/LoopVerse/blob/main/CPP/Patterns/Half-pyramid/looper1.cpp)  
 
 ```
-Input: 5  
+Input: n (for n by n output)
 Output:
 *
 **
